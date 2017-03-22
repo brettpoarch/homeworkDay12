@@ -47,7 +47,7 @@ a{
 	text-decoration: none;
 }
 
-div{
+header div{
 	margin-top: 30px;
 }
 
@@ -82,6 +82,7 @@ div{
 	width: 225px;
 	background-color: white;
 	margin-left: 40px;
+	margin-top: 30px;
 	border: 1px solid lightgrey;
 }
 
@@ -104,18 +105,18 @@ div{
 	font-weight: bold;
 }
 
-.location{
+.location, .item, .price, .color, .ordering{
 	font-size: 14px;
 	margin: 0px 10px;
 	padding-top: 35px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid lightgrey;
 }
-.location div{
+.location div, .item div, .price, div{
 	margin-top: -15px;
 }
 
-.location input{
+.location input, .item input, .price input, .ordering input{
 	margin-top: 5px;
 	width: 20px;
 }
@@ -134,19 +135,86 @@ div{
   border: 1px solid lightgrey;
 }
 
-.item {
+.price .priceBox{
+	width: 45px;
+	height: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.price button{
+	height: 35px;
+  width: 35px;
+  margin-left: 5px;
+  margin-top: 6px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.custPrice{
+	margin-top: 5px;
+	display: flex;
+	margin-left: 30px;
+}
+
+.colorBox{
+	display: flex;
+}
+.colorBox div{
+	margin-top: 30px;
+	height:20px;
+	width: 30px;
+	margin-right: 5px;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+}
+
+.red{
+	background-color: #f40B32;
+}
+
+.orange{
+	background-color: #ff7f00;
+}
+
+.yellow{
+	background-color: #f3cc0c;
+}
+
+.green{
+	background-color: #0ac20a;
+}
+
+.blue{
+	background-color: #0cccf3;
+}
+
+.purple{
+	background-color: #a60ef3;
+}
+
+.black{
+	background-color: #000;
+}
+
+.white{
+	background-color: #fff;
+}
+
+.ship{
 	font-size: 14px;
 	margin: 0px 10px;
 	padding-top: 35px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid lightgrey;
 }
 
-.item div{
-	margin-top: -15px;
+.ship div{
+	margin-bottom: 10px;
 }
 
-.item input{
-	margin-top: 5px;
-	width: 20px;
+.ship select{
+	width: 200px;
+	height:35px;
+	background-color: white;
+	border-color: lightgrey;
 }
