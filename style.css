@@ -218,3 +218,9 @@ header div{
 	background-color: white;
 	border-color: lightgrey;
 }
+
+img{
+	display:inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
