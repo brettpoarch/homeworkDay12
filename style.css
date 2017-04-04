@@ -1,6 +1,6 @@
 html {box-sizing:border-box;}
 
-*, *:before, *after {box-sizing:inherit}	
+*, *:before, *:after {box-sizing:inherit}	
 
 header{
 	display: flex;
@@ -73,9 +73,10 @@ header div{
 
 .topNav{
 	margin:0;
-	height: 25px;
+	height: 40px;
 	background-color: white;
 	padding: 10px 35px;
+	border-bottom: 1px solid lightgrey;
 }
 
 .leftNav{
@@ -219,8 +220,36 @@ header div{
 	border-color: lightgrey;
 }
 
-img{
-	display:inline-flex;
+#app{
+	display:flex;
 	flex-wrap: wrap;
-	flex-direction: row;
+	clear:right;
+	margin-top: -1315px;
+	margin-left: 300px;
+	margin-right: 25px;
+	justify-content: space-between;
+
 }
+
+div p{
+	width: 200px;
+	height: 14px;
+	overflow: hidden;
+	background-color: white;
+	margin:0px;
+	font-size: 12px;
+	
+}
+
+img{
+	width: 200px;
+	margin-top: 0px;
+	margin-bottom: -5px;
+}
+
+.desc{
+	margin-bottom: 40px;
+	border:1px solid lightgrey;
+}
+
+
